@@ -3,6 +3,11 @@ URxvt*font: xft:inconsolata:size=12:antialias=true
 URxvt*borderless: 1
 URxvt*scrollBar: false
 
+! clipboard
+URxvt.perl-ext-common:  clipboard
+URxvt.keysym.Mod4-c:    perl:clipboard:copy
+URxvt.keysym.Mod4-v:    perl:clipboard:paste
+
 !! drop in Solarized colorscheme for Xresources
 !!
 !! ## Installation
