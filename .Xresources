@@ -3,7 +3,7 @@ URxvt*font: xft:inconsolata:size=12:antialias=true
 URxvt*borderless: 1
 URxvt*scrollBar: false
 
-! clipboard
+! clipboard (need to install urxvt-perls)
 URxvt.perl-ext-common:  clipboard
 URxvt.keysym.Mod4-c:    perl:clipboard:copy
 URxvt.keysym.Mod4-v:    perl:clipboard:paste
