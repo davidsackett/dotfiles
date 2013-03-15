@@ -20,6 +20,14 @@
 
     cd ~/.vim/bundle
     git clone git://github.com/altercation/vim-colors-solarized.git
+    git clone https://github.com/plasticboy/vim-markdown.git
+
+## Gnome Terminal
+
+Add solarized to gnome terminal
+
+    git clone git://github.com/sigurdga/gnome-terminal-colors-solarized.git
+    ./solarize
 
 ## Xmonad
 

@@ -4,6 +4,10 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" makes solarized look correct in vim within gnome terminal
+" after applying git://github.com/sigurdga/gnome-terminal-colors-solarized.git
+set t_Co=16
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
